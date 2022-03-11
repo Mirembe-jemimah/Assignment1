@@ -1,0 +1,54 @@
+p{
+    color:rgb(16, 31, 2);
+}
+.content p {
+    color: darkblue;
+}
+ul { 
+    list-style: none;
+}
+a:hover {
+    color: darkmagenta;
+    text-decoration: none;
+    font-size: 30px;
+   
+}
+ul {
+     padding: 23px;
+     margin: 50px;
+     background-color: rgb(8, 8, 8);
+     color: white;
+     width: 80px;
+     height: 150px;
+     font-size: 26px;
+}
+a:visited {
+    color:brown;
+}
+.bluee:visited {
+    color:cyan;
+
+}
+.grant:visited {
+    color: orange;
+}
+.best:visited{
+    color:orchid;
+}
+/* box model */
+body{
+    margin: 0;
+    padding: 0;
+}
+.box1 {
+    width: 250px;
+    background-color: aqua;
+    border: 5px solid black;
+    margin-left: 150px;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 200px;
+    overflow:scroll ;
+    /* overflow-y: scroll; */
+    /* overflow-x: scroll; */
+}

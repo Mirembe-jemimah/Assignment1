@@ -1,0 +1,37 @@
+* {
+    margin:none;
+    padding: 0px;
+
+}
+body{
+    background-color: black;
+}
+.mother {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(81, 138, 211);
+    border-top: rgb(1, 73, 113) 12px solid; 
+    border-bottom: rgb(1, 73, 113) 12px solid; 
+    box-shadow: 3px 5px 3px rgb(3, 72, 116);
+    border-radius: 5px;
+    margin: auto;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 23px;
+    margin-left: 140px;
+}
+.details {
+    text-align: center;
+    font-size: 20px;
+}
+hr {
+    width: 30px;
+    border: 2px solid black;
+}
+.dept{
+    text-align: center;
+    font-size: 18px;
+}
